@@ -1,4 +1,4 @@
-1) Profile API (HNG Stage 0 Task)
+# Profile API (HNG Stage 0 Task)
 
 A simple REST API built with **Django REST Framework** that returns:
 - User profile information (name, email, stack)
@@ -9,12 +9,12 @@ This project demonstrates how to build and expose a JSON API endpoint using Pyth
 
 ---
 
-2) Live API URL:
+# Live API URL:
  **(Add your deployed link here once hosted, e.g. https://profileapi-production.up.railway.app/api/me/)**
 
 
 
-3) GET /api/me/
+# GET /api/me/
 
 Example response:
 json
@@ -31,7 +31,7 @@ json
 
 
 
-4) Features
+# Features
 
 - Returns JSON data with proper header: Content-Type: application/json
 
@@ -43,7 +43,7 @@ json
 
 
 
-5) Local Setup Instructions
+# Local Setup Instructions
 
 - Clone the repository
 git clone https://github.com/jais380/profile.git
@@ -68,11 +68,13 @@ You should see the JSON response containing your profile details and a cat fact
 
 
 
-6) Install all dependencies using: pip install -r requirements.txt
+# Install all dependencies using
+
+pip install -r requirements.txt
 
 
 
-7) Testing the Endpoint
+# Testing the Endpoint
 
 You can test your endpoint in multiple ways:
 
